@@ -2,9 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a simple App that displays ticket content and lets users add tickets to their basket
+![Screenshot 2023-08-13 at 21 33 33](https://github.com/onyela-o/line-up-app/assets/83657534/1c1732b8-b020-429b-b8ef-a683bce9c32d)
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+Installs dependencies
 
 ### `npm start`
 
