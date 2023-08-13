@@ -1,0 +1,4 @@
+export const BASE_URL = 'https://api.line-up.tickets/api'
+
+export const TOKEN =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaGFubmVsX2lkIjoiNzkiLCJzY29wZXMiOiJjaGVja291dCIsImFtciI6WyJtZmEiXSwidHlwZSI6InRyYW5zYWN0aW9uIiwic3ViIjoiMzAifQ.2bp1AR5PzJB7NwmYTq_vh8RT0RBsQelVLI6XriqUQAE'
