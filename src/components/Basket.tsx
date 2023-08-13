@@ -16,15 +16,15 @@ const Basket: React.FC<BasketProps> = ({
     <>
       {numberOfBasketedTickets === 0 ? (
         <>
-          <h2>{`🛒${numberOfBasketedTickets} tickets in your basket`}</h2>
-          <br/>
+          <h2 id='basket-count'>{`🛒${numberOfBasketedTickets} tickets in your basket`}</h2>
+          <br />
         </>
       ) : (
         <>
-          <h2>{`🛒${numberOfBasketedTickets} ${
+          <h2 id='basket-count'>{`🛒${numberOfBasketedTickets} ${
             numberOfBasketedTickets === 1 ? 'ticket' : 'tickets'
           } in your basket`}</h2>
-          <h3>{`${totalCostPounds}`}</h3>
+          <h3 id='total-cost'>{`${totalCostPounds}`}</h3>
         </>
       )}
     </>
